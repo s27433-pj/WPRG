@@ -1,0 +1,136 @@
+/* Image Styles */
+img {
+	max-width: 100%;
+}
+
+/* Main Banner Styles */
+.main-banner {
+	width: 100%;
+	height: 50vh;
+	background: url("../img/welcome.jpg") center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 36px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Main Blog Card Styles */
+.main-blog-card {
+	width: 90%;
+	margin: 20px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Category Aside Styles */
+.category-aside {
+	width: 100%;
+	padding: 20px;
+	background: #f8f9fa;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Blog Styles */
+.main-blog {
+	width: 70%;
+	margin: 20px auto;
+}
+
+/* Aside Main Styles */
+.aside-main {
+	width: 30%;
+	padding: 20px;
+}
+
+/* Utility Classes */
+.w-450 {
+	width: 450px;
+}
+
+.vh-100 {
+	min-height: 100vh;
+}
+
+/* Admin Section Styles */
+.section-1 {
+	width: 100%;
+	padding: 15px;
+}
+
+.main-table {
+	width: 90%;
+	max-width: 700px;
+	margin: auto;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-collapse: collapse;
+}
+
+.main-table th, .main-table td {
+	padding: 12px 15px;
+	border: 1px solid #dee2e6;
+	text-align: left;
+}
+
+.main-table th {
+	background: #343a40;
+	color: #fff;
+}
+
+.main-table tr:nth-child(even) {
+	background: #f8f9fa;
+}
+
+/* Reaction Buttons */
+.react-btns i {
+	font-size: 24px;
+	color: #222;
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+.react-btns a {
+	text-decoration: none;
+	color: #222;
+	cursor: pointer;
+	transition: opacity 0.3s ease;
+}
+
+.react-btns a:hover {
+	opacity: 0.8;
+}
+
+.react-btns .like:hover {
+	color: #0088FF;
+}
+
+.react-btns .liked {
+	color: #0088FF;
+}
+
+/* Comments Styles */
+.comments .comment span {
+	color: #0088FF;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.aside-main {
+		display: none;
+	}
+	.main-blog {
+		width: 100%;
+	}
+	.main-blog-card {
+		width: 100%;
+	}
+}
